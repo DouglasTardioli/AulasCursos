@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de DEV</title>
+  <style>
+    .is-light { background-color: #f1f5f9; color: #212529; }
+    .is-dark { background-color: #212529; color: #f1f5f9; }
+  </style>
+
+</head>
+<body class="is-light">
+  <h1>Cadastro de DEV's</h1>
+  <button id="darkOrLight">Modo Escuro</button>
+  <hr>
+
+  <h2>Cadastrar Novo Desenvolvedor</h2>
+
+  <form id="devForm">
+    <label for="fullname">Nome Completo: </label>
+    <input type="text" name="fullname" id="fullname"><br><br>
+
+    <label>Tecnologias: </label><br><br>
+    <button id="addTechBtn" type="button">Adicionar nova Tech</button>
+
+    <ul id="stackInputs"></ul>
+    <br>
+    <button type="submit">cadastrar</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
